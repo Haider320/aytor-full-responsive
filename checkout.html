@@ -1,0 +1,605 @@
+
+<!DOCTYPE html>
+
+<htmml>
+
+
+    <head>
+
+        <!-- meta <section> start -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- slick section css start -->
+    <link rel="stylesheet" href="./asset/css/slick.css">
+
+    <!-- all.main section css start -->
+    <link rel="stylesheet" href="./asset/css/all.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&family=Roboto&display=swap"
+        rel="stylesheet">
+
+    <!-- bootstrsap section css start -->
+    <link rel="stylesheet" href="./asset/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="./asset/css/venobox.min.css">
+
+    <!-- main css section css start -->
+    <link rel="stylesheet" href="./asset/css/style.css">
+
+    <!-- responsive section css start -->
+    <link rel="stylesheet" href="./asset/css/responsive.css">
+    </head>
+<body>
+
+
+     <!-- menu section strat -->
+     <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand">
+                <img src="./asset/images/logo (2).png" class="img-fluid" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#my_menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="my_menu">
+                <ul class="navbar-nav mx-auto" id="main_nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About me</a>
+
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="about.html" data-bs-toggle="dropdown">Shop</a>
+
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" href="shop.html">Shop</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="shop-details.html">Shop-Details</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="compare.html">Compare</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="checkout.html">Checkout</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="cart.html">Cart</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="wishlist.html">Wishlist</a>
+                            </li>
+                        </ul>
+
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Pages</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="blog.html" data-bs-toggle="dropdown">Blogs</a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" href="blog-1.html">Blog-1</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="blog-2.html">Blog-2</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Blog-3</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Blog-details</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+
+
+                </ul>
+
+
+            </div>
+
+            <div class="nv_icons">
+                <ul class="d-flex flax-wrap">
+                    <li>
+                        <button>
+                            <i class="fa-solid fa-search fa-rotate-90"></i>
+                        </button>
+                    </li>
+                    <li>
+                        <button>
+                            <i class="fa-solid fa-user"></i>
+                        </button>
+                    </li>
+                    <li>
+                        <button>
+                            <i class="fa-solid fa-heart"></i>
+                        </button>
+                    </li>
+                    <li>
+                        <button>
+                            <i class="fa-solid fa-bag-shopping shopping"></i>
+                            <span>5</span>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+
+     <!-- heading section start -->
+
+     <section id="heading">
+        <div class="container">
+            <div class="heading_info">
+                <h2>Checkout</h2>
+                <p>Home / About Us</p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- heading section end -->
+
+
+    
+    <div class="personal_info">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6">
+
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 bill_item">
+                            <label>First Name*</label>
+                            <input type="text" placeholder="Your first name..." class="form-control">
+
+                        </div>
+                        <div class="col-lg-6 col-md-6 bill_item">
+                            <label>Last Name*</label>
+                            <input type="text" placeholder="Your last name..." class="form-control">
+
+                        </div>
+
+                        <div class="col-lg-12 bill_item">
+                            <label>lCompany name (optional)*</label>
+                            <input type="text" placeholder="Name..." class="form-control">
+                        </div>
+                        <div class="col-lg-12 bill_item">
+                            <label>Email*</label>
+                            <input type="text" placeholder="youremail@gmail.com" class="form-control">
+
+                        </div>
+
+                        <div class="col-lg-12 bill_item">
+                            <label>Telephone*</label>
+                            <input type="" placeholder="+123..." class="form-control">
+
+                        </div>
+
+                        <div class="col-lg-12 bill_item">
+                            <label>Country*</label>
+
+                            <select class="form-select">
+                                <option>Bangladesh</option>
+                                <option>India</option>
+                                <option>Pakistan</option>
+                                <option>Dubai</option>
+                            </select>
+                        </div>
+
+                        <div class="col-lg-12 bill_item">
+                            <label>Street address*</label>
+                            <input type="text" placeholder="House and street name..." class="form-control">
+                        </div>
+
+                        <div class="col-lg-12 bill_item">
+                            <label>Town / City*</label>
+                            <select class="form-select">
+                                <option>Dhaka</option>
+                                <option>Chottrogram</option>
+                                <option>Sylet</option>
+                                <option>Khulna</option>
+                                <option>Saidpur</option>
+
+                            </select>
+                        </div>
+
+                        <div class="col-lg-12 bill_item">
+                            <label>Post Code*</label>
+                            <select class="form-select">
+                                <option>5310</option>
+                                <option>4210</option>
+                                <option>3300</option>
+                                <option>4500</option>
+                            </select>
+                        </div>
+                    </div>
+
+
+
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <h2>Additional Information</h2>
+                    <label>Order notes (optional)*</label>
+                    <textarea placeholder="Notes about your order, e.g. special notes for delivery."></textarea>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container checkout">
+        <h2>Your Order</h2>
+        <div class="table-responsive">
+        <table style="text-align: center;" border="1" class="table">
+            <tbody>
+                <tr class="checkout_info" style="border-bottom: 1px solid red; background: #F1F3F4
+                    ;">
+                    <td style="border-right: 1px solid grey;">Image</td>
+                    <td style="border-right: 1px solid grey;">
+                        <span>Product Name</span>
+                    </td>
+
+                    <td style="border-right: 1px solid grey;">
+                        <h6>Price/Unit</h6>
+                    </td>
+                    <td style="border-right: 1px solid grey;">
+                        <span>Quantity</span>
+                    </td>
+                    <td style="border-right: 1px solid grey;">
+                        <span>Total</span>
+                    </td>
+                </tr>
+
+                <tr class="checkout_img" style="border-bottom: 1px solid gray;">
+                    <td style="border-right: 1px solid grey;">
+                        <image src="./asset/images/checkOut_1.jpg" class="img-fluid" alt=""></image>
+                    </td>
+
+                    <td style="border-right: 1px solid grey;">
+                        <h6> Jacket Hoodie Sweater</h6>
+                    </td>
+
+                    <td style="border-right: 1px solid grey;">
+                        <span>$130.00</span>
+                    </td>
+                    <td style="border-right: 1px solid grey;">
+                        <button>
+                            <i class="fas fa-minus"></i>
+                        </button>
+                        <button>
+
+                            1
+                        </button>
+                        <button>
+                            <i class="fas fa-plus"></i>
+                        </button>
+                    </td>
+
+                    <td style="border-right: 1px solid grey;">
+                        <span>$130.00</span>
+                    </td>
+
+                </tr>
+
+                <tr class="checkout_sub_total" style="border-bottom: 1px solid gray;">
+                    <td style="border-right: 1px solid grey;">Subtotal</td>
+                    <td>
+
+                    </td>
+                    <td>
+
+                    </td>
+                    <td>
+
+                    </td>
+
+                    <td>$130.00</td>
+                </tr>
+
+                <tr class="checkout_total" style="border-bottom: 1px solid gray;">
+                    <td style="border-right: 1px solid grey;">Total</td>
+                    <td>
+
+                    </td>
+                    <td>
+
+                    </td>
+                    <td>
+
+                    </td>
+
+                    <td>$130.00</td>
+                </tr>
+
+
+            </tbody>
+        </table>
+
+        </div>
+
+
+
+
+    </div>
+
+
+    <div class="payments container">
+
+        <div class="direct_bank_transfer">
+            <i class="fa-solid fa-check"></i>
+            <h3 style="display: inline-block;">Direct bank transfer</h3>
+            <p>Make your payment directly into our bank account. Please use your Order ID as the payment reference. Your
+                order will not be shipped until the funds have cleared in our
+                account.</p>
+        </div>
+
+        <div class="direct_bank_transfer">
+            <i class="fa-solid fa-check"></i>
+            <h3 style="display: inline-block;">Check payments</h3>
+            <p>Please send a check to Store Name, Store Street, Store Town, Store State / County, Store Postcode.</p>
+        </div>
+
+        <div class="direct_bank_transfer">
+            <i class="fa-solid fa-check"></i>
+            <h3 style="display: inline-block;">Cash on delivery</h3>
+            <p>Pay with cash upon delivery.</p>
+        </div>
+
+        <span>Your personal data will be used to process your order, support your experience throughout this website,
+            and for other purposes described in our privacy policy.</span>
+        <br>
+
+        <a href="#">
+            Place Order
+        </a>
+
+
+
+    </div>
+
+
+
+    <!-- footer section start -->
+
+
+    
+    <section id="footer">
+        <footer>
+            <div class="container">
+                <div class="row align-items-center justify-content-center footer_header">
+
+                    <div class="col-lg-4 head">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-pinterest-p"></i>
+
+                    </div>
+                    <div class="col-lg-4 head">
+                        <img src="./asset/images/logo (2).png" class="img-fluid" alt="">
+
+                    </div>
+                    <div class="col-lg-4 head">
+                        <img src="./asset/images/footer_icon.png" class="img-fluid" alt="">
+
+                    </div>
+                </div>
+
+
+                <div class="row footer_down">
+
+
+                    <div class="col-lg-2">
+                        <h3>My Account</h3>
+                        <a style="display: block;" href="#">
+
+                            <a href="#">
+                                <i class="fa-solid fa-angle-double-right"></i>
+                                My Account
+                            </a>
+
+
+                        </a>
+                        <a style="display: block;" href="#">
+
+                            <a href="#">
+                                <i class="fa-solid fa-angle-double-right"></i>
+                                View cart
+                            </a>
+
+
+                        </a>
+                        <a style="display: block;" href="#">
+                            <i class="fa-solid fa-angle-double-right"></i>
+                            Wishlist
+                        </a>
+                        <a style="display: block;" href="#">
+                            <i class="fa-solid fa-angle-double-right"></i>
+                            Compare
+                        </a>
+                        <a style="display: block;" href="#">
+                            <i class="fa-solid fa-angle-double-right"></i>
+                            New Products
+                        </a>
+
+
+
+
+
+
+
+
+
+
+                    </div>
+                    <div class="col-lg-2">
+                        <h3>Support</h3>
+                        <a style="display: block;" href="#">
+                            <i class="fa-solid fa-angle-right"></i>
+                            Help
+                        </a>
+                        <a style="display: block;" href="#">
+                            <i class="fa-solid fa-angle-right"></i>
+                            Contact Us
+                        </a>
+                        <a style="display: block;" href="#">
+                            <i class="fa-solid fa-angle-right"></i>
+                            Feedback
+                        </a>
+                        <a style="display: block;" href="#">
+                            <i class="fa-solid fa-angle-right"></i>
+                            Customer Service
+                        </a>
+                        <a style="display: block;" href="#">
+                            <i class="fa-solid fa-angle-right"></i>
+                            Store Locations
+                        </a>
+
+
+
+
+                    </div>
+                    <div class="col-lg-2">
+                        <h3>Opening Time</h3>
+                        <div class="d-flex">
+                            <div class="date">
+                                <p>Mon-tue:</p>
+                                <p>Wed:</p>
+                                <p>Fri:</p>
+                                <p>Sat:</p>
+                                <p>Sun:</p>
+
+                            </div>
+                            <div class="time">
+                                <p>8AM-10PM</p>
+                                <p>8AM-7PM</p>
+                                <p>7AM-10PM</p>
+                                <p>9AM-8PM</p>
+                                <p>Closed</p>
+
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                    <div class="col-lg-3">
+                        <h3>Contact Us</h3>
+                        <div class="contact_item d-flex align-items-center pb-2">
+                            <div class=" pe-3">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <div>
+                                <a href="830 Broadway, New York, NY 10003, United States">830 Broadway, New York, NY
+                                    10003, United States</a>
+                            </div>
+                        </div>
+
+                        <div class="contact_item d-flex align-items-center pb-2">
+                            <div class="pe-3">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                            <div>
+                                <a href="callto:+18008660286">+18008660286</a>
+                            </div>
+                        </div>
+
+                        <div class="contact_item d-flex align-items-center pb-2">
+                            <div class="pe-3">
+                                <i class="fa-solid fa-envelope"></i>
+                            </div>
+                            <div>
+                                <a href="mailto:aetor.info@gmail.com">aetor.info@gmail.com</a>
+                                <a href="mailto:info@aetor.com">info@aetor.com</a>
+                            </div>
+                        </div>
+
+
+
+
+                    </div>
+                    <div class="col-lg-3">
+
+                        <h3>News Letter</h3>
+                        <p>Authoritatively morph 24/7 potentialities with error-free partnerships.</p>
+                        <div class="d-flex">
+
+                            <input type="email" placeholder="Enter your email....">
+                            <button>Subscribe</button>
+                        </div>
+
+
+
+
+                    </div>
+                </div>
+            </div>
+            </div>
+
+        </footer>
+    </section>
+
+
+
+
+    <!-- footer section end -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="./asset/js/jquery-1.12.4.min.js"></script>
+
+    <!-- bootstrap section js start -->
+    <script src="./asset/js/bootstrap.bundle.min.js"></script>
+
+    <script src="./asset/js/slick.min.js"></script>
+
+
+    <script src="./asset/js/jquery.countdown.min.js"></script>
+
+
+    <script src="./asset/js/venobox.min.js"></script>
+
+
+    <!-- main js section js start -->
+    <script src="./asset/js/app.js"></script>
+</body>
+
+
+
+
+
+
+</htmml>

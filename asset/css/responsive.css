@@ -1,0 +1,892 @@
+
+@media (min-width:1400px){
+
+
+    
+
+}
+
+
+
+
+
+@media (min-width:1200px) and (max-width:1399.98px){
+    
+}
+
+
+
+@media (min-width:992px) and (max-width:1199.98px){
+
+
+    .banner_slider_item{
+        height: 680px;
+        background-position: center;
+    }
+    #my_menu ul li a {
+        display: inline-block;
+        padding: 18px 18px;
+        
+    }
+
+    #banner {
+        padding: 0 40px;
+        margin-bottom: 60px;
+    }
+
+    #banner {
+        
+        
+        background-position: center;
+        
+    }
+
+    #banner .container h5 {
+        font-size: 20px;
+        color: white;
+    }
+    #banner .container h1 {
+        text-transform: uppercase;
+        font-size: 48px;
+        color: white;
+        letter-spacing: 10px;
+    }
+
+    .about_info h2 {
+        color: #02918c;
+        font-size: 40px;
+        font-weight: 700;
+    }
+
+    .service_info h2 {
+       
+        font-size: 30px;
+        
+        font-weight: 700;
+    }
+
+
+
+
+
+
+
+
+    
+}
+
+
+
+@media (min-width:768px) and (max-width:991.98px){
+
+
+    .banner_slider_item{
+    height: 500px;
+    }
+
+    .banner_slider_item h2 {
+       
+        font-size: 50px;
+        line-height: 64px;
+        
+    }
+
+    #banner {
+        padding: 0 40px;
+        margin-bottom: 60px;
+    }
+
+    .banner_slider_item p {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+        color: #FFFFFF;
+    }
+    #my_menu ul li a {
+        display: inline-block;
+        padding: 15px 15px;
+        font-size: 12px;
+        text-transform: uppercase;
+        color: #444444;
+        transition: .6s;
+    }
+    #service{
+        background: #f0f0e8;
+        padding-bottom: 50px;
+    }
+    #banner {
+        
+        height: 580px;
+        background-position: center;
+        margin-bottom: 20px;
+        
+    }
+    #banner .container h5 {
+        font-size: 22px;
+        color: white;
+    }
+    #banner .container h1 {
+        text-transform: uppercase;
+        font-size: 50px;
+        color: white;
+        letter-spacing: 5px;
+    }
+    #new .container h2 {
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 46px;
+        text-align: center;
+        color: #11161E;
+        margin-bottom: 20px;
+    }
+
+
+    .floating_tag {
+        color: var(--common-white);
+        position: absolute;
+        top: 0px;
+        left: 30px;
+        background: var(--primary-1st-Color);
+        transform: rotate(90deg);
+        transform-origin: left;
+        padding: 5px 20px;
+    }
+
+    .product:hover .product_action{
+        visibility: visible;
+        transform: translateY(-10px);
+    
+      }
+
+
+      #new_product_down .new_product_down_info h2 {
+        padding-top: 40px;
+        padding-bottom: 15px;
+        color: var(--common-white);
+    }
+
+
+    .product_down .floating_tag {
+        color: var(--common-white);
+        position: absolute;
+        top: 5px;
+        left: 30px;
+        background: var(--primary-1st-Color);
+        transform: rotate(90deg);
+        transform-origin: left;
+        padding: 5px 30px;
+    }
+
+
+
+    #deals .product_info h2 {
+       
+        font-weight: 700;
+        font-size: 28px;
+       
+    }
+
+    #deals .product_info button {
+       
+        margin-bottom: 40px;
+       
+    }
+
+    .special_offer_info h3 {
+       
+        font-size: 25px;
+       
+
+    }
+
+    #news{
+        margin-bottom: 60px;
+    }
+
+    #news .news_info h5 {
+       
+        font-size: 16px;
+       
+    }
+
+    #news .news_info p {
+       
+        font-size: 14px;
+        margin-bottom: 15px;
+       
+    }
+
+    .news_item{
+        margin-right: 12px;
+    }
+
+
+
+
+    .service_info h2 {
+       
+        font-size: 40px;
+        
+        font-weight: 700;
+    }
+
+
+    .service_info{
+        margin-left: 0px;
+    }
+
+    .service_item h5 {
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 30px;
+        color: #11161E;
+    }
+
+
+    .contact_item {
+        background: #FFFFFF;
+        box-shadow: 0px 5px 30px rgba(17, 22, 30, 0.08);
+        margin-bottom: 50px;
+        margin-top: 10px;
+    }
+    .sub_container{ 
+        width: 55%; 
+    } 
+
+
+    /* about page responsive start.... */
+
+    #about{
+        padding-top:30px ;
+    }
+
+    #about .about_info{
+        margin-bottom: 60px;
+    }
+    .about_item {
+        text-align: center;
+        margin-top: 50px;
+        border-right: none;
+    }
+
+    .expert_slider_icon {
+        width: 30px;
+        height: 50px;
+        background: red;
+        color: var(--common-white);
+        text-align: center;
+        line-height: 50px;
+        position: absolute;
+        top: 30%;
+        transform: translateY(-50%);
+        z-index: 999;
+    }
+
+    .aytor_img{
+        margin-bottom: 90px;
+    }
+
+    
+    
+
+
+
+
+    /* about page responsive css end.... */
+
+
+
+
+    /* shop details css start....... */
+
+
+
+
+
+
+    /* blog-2 section css start........ */
+
+    #blog-2 span {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 28px;
+        text-align: justify;
+        color: #444444;
+    }
+
+
+    #contact .contact_info span, p {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 28px;
+        color: #444444;
+        color: #4444;
+    }
+
+
+
+
+
+
+
+     /* blog-2 section css end........ */
+
+
+
+
+     /* contact section css start...... */
+
+     .contact_item{
+        margin-top: 50px;
+        
+     }
+
+     #contact .contact_info h5 {
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 34px;
+        color: #11161E;
+    }
+
+    #contact .contact_info span, p {
+       
+        color: #444444;
+        color: #444;
+    }
+
+    #contact .contact_info span, p {
+      
+        padding-bottom: 15px;
+    }
+
+
+    .contact_info h6{
+        margin-bottom: 7px;
+    }
+
+
+
+
+    
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+}
+@media (min-width:576px) and (max-width:767.98px){
+.banner_slider_item{
+    height: 400px;
+}
+
+.banner_slider_item h2 {
+	font-family: 'Josefin Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 50px;
+	color: #FFFFFF;
+}
+#banner {
+	padding: 0 30px;
+	margin-bottom: 0px;
+}
+
+#deals .product_info button {
+	background: #151A32;
+	padding: 10px 20px;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	color: var(--common-white);
+}
+
+
+#service{
+    margin-top: 60px;
+    background: #FFFFFF;
+    margin-bottom: -30px;
+}
+
+.service_item h5 {
+	font-family: 'Josefin Sans';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 30px;
+	color: #11161E;
+}
+
+    #my_menu ul li a {
+        display: inline-block;
+        padding: 13px 13px;
+       
+    }
+
+    #banner {
+       
+        height: 480px;
+        background-position: center;
+       
+    }
+
+    #banner .container h5 {
+        font-size: 18px;
+        color: white;
+    }
+
+    #banner .container h1 {
+        font-size: 46px;  
+        letter-spacing: 8px;
+    }
+
+
+    .about_info h2 {
+        
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+
+
+    #deals .product_info h2 {
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 46px;
+        color: #11161E;
+        margin-bottom: 15px;
+    }
+
+    #deals .product_info p {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: #444444;
+        margin-bottom: 15px;
+    }
+    .service_info h2 {
+        padding-top: 25px;
+        padding-bottom: 30px;
+        font-size: 46px;
+        color: #02918c;
+        font-weight: 600;
+    }
+
+    #service{
+        
+          
+         background: #f0f0e8;
+    }
+
+    .sub_container{
+        
+        
+    }
+
+    #about .about_info{
+        margin-bottom: 30px;
+    }
+    .about_item {
+        text-align: center;
+        margin-top: 80px;
+        border-right: none;
+        
+    }
+
+    .contact_item {
+        background: #FFFFFF;
+        box-shadow: 0px 5px 30px rgba(17, 22, 30, 0.08);
+        margin-bottom: 50px;
+        margin-top: 20px;
+    }
+
+
+    /* abbout page css start.... */
+.expert_slider_icon {
+    width: 30px;
+    height: 50px;
+    background: red;
+    color: var(--common-white);
+    text-align: center;
+    line-height: 50px;
+    position: absolute;
+    top: 25%;
+    transform: translateY(-50%);
+    z-index: 999;
+}
+
+#shiping .shiping_item {
+	border-right: 1px solid gray;
+	margin-bottom: 20px;
+}
+
+.expert_slider_icon {
+	width: 30px;
+	height: 50px;
+	background: red;
+	color: var(--common-white);
+	text-align: center;
+	line-height: 50px;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	z-index: 999;
+}
+
+
+
+#testomoniyal .testomoniyal_slider_nav_item{
+    position: absolute;
+    width: 50px !important;
+    animation: moving 15s linear infinite alternate;
+}
+
+
+.aytor_img{
+    margin-bottom: 100px;
+}
+
+
+
+/* about page css end....... */
+
+
+
+
+
+/* shop details css start...... */
+
+
+
+
+
+#jacket .jacket_info h3 {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 46px;
+    color: #11161E;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+
+
+    
+}
+
+
+@media (max-width:575.98px){
+    #my_menu ul li a {
+        display: inline-block;
+        padding: 13px 13px;
+       
+    }
+
+    #banner {
+       
+        height: 350px;
+        background-position: center;
+       
+    }
+
+    #banner {
+        padding: 0 20px;
+        margin-bottom: 60px;
+    }
+
+    .banner_slider_item{
+        height: 380px;
+    }
+
+    .banner_slider_item h2 {
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 30px;
+        color: #FFFFFF;
+    }
+
+    .banner_slider_item p {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 20px;
+        color: #FFFFFF;
+    }
+
+    #new .container h2 {
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 46px;
+        text-align: center;
+        color: #11161E;
+        margin-bottom: 20px;
+    }
+
+    #deals .product_info button {
+        background: #151A32;
+        padding: 10px 20px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        color: var(--common-white);
+    }
+
+    #best_product h2 {
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 46px;
+        text-align: center;
+        color: #11161E;
+    }
+
+    #new_product_down .new_product_down_info h2 {
+        padding-top: 50px;
+        padding-bottom: 20px;
+        color: var(--common-white);
+        font-size: 22px;
+    }
+
+    #deals .product_info h2 {
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 46px;
+        color: #11161E;
+        margin-bottom: 15px;
+    }
+
+
+  .service_item{
+    
+  }
+    #banner .container a {
+        display: inline-block;
+        padding: 10px 10px;
+       
+    }
+    #banner .container h5 {
+        font-size: 14px;
+        color: white;
+    }
+    .about_info h2 {
+        color: #02918c;
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    #banner .container h1 {
+        text-transform: uppercase;
+        font-size: 30px;
+        color: white;
+        letter-spacing: 5px;
+    }
+
+    .service_info h2 {
+      
+        font-size: 20px;
+       
+        font-weight: 800;
+    }
+    #service{
+        background: #f0f0e8;
+       
+         
+         
+        
+    }
+    .sub_container{
+        width: 100%;
+    }
+
+    .about_item{
+        border-right: none;
+    }
+
+    #my_work .my-work h2 {
+        color: #02918c;
+        font-size: 30px;
+        font-weight: 800;
+    }
+
+    .work_item img{
+        width: 100%;
+    }
+.about_item{
+    width: 50%;
+}
+
+.service_item{
+    width: 50%;
+}
+#about .about_info h2 {
+	font-size: 35px;
+	
+}
+
+
+#my_work .work_info h2 {
+	font-size: 40px;
+	font-weight: 700;
+	
+}
+.contact_info h2 {
+	
+	font-size: 30px;
+}
+	
+
+
+.work_img{
+    width: 25%;
+}
+
+
+.service_item{
+    width: 100%;
+}
+
+
+/* abbout page css start.... */
+.expert_slider_icon {
+   
+    top: 25%;
+    transform: translateY(-50%);
+    z-index: 999;
+}
+
+
+#shiping .shiping_item {
+	border-right: 1px solid gray;
+	margin-bottom: 20px;
+}
+
+.expert_slider_icon {
+	
+	top: 50%;
+	transform: translateY(-50%);
+	z-index: 999;
+}
+
+#expert_team h2 {
+	font-size: 25px;
+
+}
+
+#instragram h3{
+    font-size: 28px;
+}
+
+
+
+#testomoniyal .testomoniyal_slider_nav_item{
+    position: absolute;
+    width:50px !important;
+    animation: moving 15s linear infinite alternate;
+}
+
+	
+
+.footer_down_item{
+    width: 100%;
+}
+
+
+
+
+/* about page css end....... */
+
+
+/* shop details css start....... */
+
+
+#jacket .jacket_info h3 {
+	
+	margin-top: 30px;
+}
+
+.quentiy a {
+	display: inline-block;
+	padding: 5px 10px;
+	background: #FF6F61;
+	color: var(--common-white);
+}
+
+
+#hridoy #btn{
+    margin-bottom: 20px;
+    display: block;
+}
+
+
+.shop_icons{
+    margin-top: 20px;
+}
+
+
+
+/* blog-2 section css start..... */
+
+
+#blog-2 span {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 28px;
+	text-align: justify;
+	color: #444444;
+}
+
+
+
+
+
+
+
+/* blog-2 section css end..... */
+
+
+
+
+
+
+
+    
+    
+}
